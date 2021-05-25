@@ -1,0 +1,131 @@
+.portada-video {
+  width: 100%;
+  text-align: center;
+}
+
+.portada-video .video {
+  width: 100%;
+  height: 600px;
+}
+
+.promociones {
+  background: #fff;
+  font-family: nunito;
+  font-size: 14px;
+  color: #000;
+  width: 100%;
+}
+
+.swiper-container-promo {
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.swiper-container-promo img {
+  width: 100%;
+}
+
+.carrousel {
+  background: #fff;
+  font-family: nunito;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.carrousel .imagen {
+  width: 100%;
+}
+
+.swipe-slide .imgBx {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.swipe-slide imgBx img {
+  width: 100%;
+}
+
+.swipe-slide .details {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.swiper-slide .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.redes {
+  background: #fff;
+}
+
+.redes img {
+  width: 40px;
+  margin-left: 15px;
+}
+
+.redes #doordash {
+  width: 100px;
+}
+
+.redes #facebook {
+  width: 18px;
+}
+
+.redes #yelp {
+  width: 50px;
+}
+
+.redes #grubhub {
+  width: 60px;
+}
+
+.mapa {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.mapa .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa img {
+  width: 80%;
+}
+
+.info {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+

@@ -14,6 +14,7 @@
   font-size: 14px;
   color: #000;
   width: 100%;
+  text-align:center;
 }
 
 .swiper-container-promo {
@@ -23,6 +24,14 @@
   text-align: center;
   margin: auto;
 }
+@media (max-width: 992px) {
+  .swiper-container-promo {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+
 
 .swiper-container-promo img {
   width: 100%;
@@ -112,6 +121,14 @@
   text-align: center;
 }
 
+@media (max-width: 992px) {
+  .mapa iframe {
+    width: 100%;
+  }
+}
+
+
+
 .mapa .row {
   display: flex;
   justify-content: center;
@@ -128,4 +145,15 @@
   margin: auto;
   margin-top: 50px;
 }
+#carousel-t {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  #carousel-t iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+
 
